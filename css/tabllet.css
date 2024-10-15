@@ -1,0 +1,33 @@
+/* 768-481*/
+@media(max-width: 710px){
+    /* header */
+    header {
+      padding: 6px 38px;
+  }
+  .header_section_nav{
+    display: none;
+  }
+  
+      /* section 1 */
+  .section_1 {
+      padding-inline: 38px;
+      height: 438px;
+  }
+  /* section 2 */
+  .section_2 {
+      padding: 40px 38px;
+  }
+  .section_2_article_none{
+      display: none;
+  }
+  /* section 3 */
+  .section_3_article { 
+    width: min(100%, 583px);
+    flex: 1 1 70%;
+}
+  .section_3{
+      padding: 40px 38px;
+  }
+  .header_burger{
+    display: block;
+  }
